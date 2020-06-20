@@ -1,0 +1,39 @@
+a=int(input())#2inputs checking equal r not
+b=int(input())
+d=a==b
+print(d)
+
+a=int(input())#3inputs checking equal r not
+b=int(input())
+c=int(input())
+d=a==b and b==c and c==d
+e=a==b and b==c or c==a#using and or
+print(d)
+print(e)
+
+
+a=int(input())#either value is >5 or<5 or=5 
+b=int(input())
+c=a+b
+if c>5:
+      print("greter than 5")
+elif c<5:
+      print("lesser than 5")
+else:
+      print("equal to 5")
+    
+a=int(input())  #student pass r  fail
+if a>35:
+	    print("pass")
+else:
+	    print("fail")
+	    
+a=int(input())#finding max value
+b=int(input())
+c=int(input())
+if (a>=b) and (a>=c):
+	    print("a is max value")
+elif (b>=a) and (b>=c):
+	    print("b is max value")
+else:
+	    print("max value is c")
